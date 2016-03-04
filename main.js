@@ -35,7 +35,6 @@ ul.style.textAlign = 'left';
 ul.addEventListener('click', function (e) {
     if (e.target.matches('button')) {
         e.target.parentElement.parentElement.removeChild(e.target.parentElement);
-
     };
 });
 
